@@ -1,0 +1,68 @@
+/* Global styles and responsive fixes */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure containers do not exceed viewport */
+.dialog-off-canvas-main-canvas,
+.layout-container {
+  overflow-x: clip;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Fix flexslider images overflowing before slider JS runs */
+.flexslider .slides img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Superfish submenu constraints to prevent 1400px fixed width blowout */
+#superfish-main .sf-multicolumn li > ol {
+  max-width: calc(100vw - 40px) !important;
+}
+
+/* Explicitly hide unhovered submenus so offscreen coordinates don't trigger horizontal scroll */
+ul.sf-menu ul {
+  display: none;
+}
+ul.sf-menu li:hover > ul,
+ul.sf-menu li.sfHover > ul {
+  display: block;
+}
+
+/* Display main content on all inner pages */
+main {
+  display: block !important;
+}
+
+/* Hide empty main on homepage */
+app-home main {
+  display: none !important;
+}
+
+/* Maintain frontpage styling within app-home */
+app-home h1 {
+  font-size: 30px;
+}
+app-home #cabinet,
+app-home #medipole,
+app-home #foy,
+app-home #trenel {
+  background-image: none;
+  margin-bottom: 0;
+}

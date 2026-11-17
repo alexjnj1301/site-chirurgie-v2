@@ -1,0 +1,312 @@
+import { Routes } from '@angular/router';
+import { CombienDeTempsFautIlPourQueLesProthSesMammairesDescendentComponent } from './pages/Combien-de-temps-faut-il-pour-que-les-proth-ses-mammaires-descendent/Combien-de-temps-faut-il-pour-que-les-proth-ses-mammaires-descendent.component';
+import { DepuisLe2Janvier2019LeDrPapaliaOpReAussiAuMDipLeLyonVilleurbanneComponent } from './pages/Depuis-le-2-janvier-2019-le-Dr-Papalia-op-re-aussi-au-M-dip-le-Lyon-Villeurbanne/Depuis-le-2-janvier-2019-le-Dr-Papalia-op-re-aussi-au-M-dip-le-Lyon-Villeurbanne.component';
+import { En201810DesFranAisesOntEuRecoursLaChirurgieEsthTiqueComponent } from './pages/En-2018-10-des-fran-aises-ont-eu-recours-la-chirurgie-esth-tique/En-2018-10-des-fran-aises-ont-eu-recours-la-chirurgie-esth-tique.component';
+import { LeDrPapaliaIntGreLeCentreHospitalierDeSainteFoyComponent } from './pages/Le-Dr-Papalia-int-gre-le-Centre-Hospitalier-de-Sainte-Foy/Le-Dr-Papalia-int-gre-le-Centre-Hospitalier-de-Sainte-Foy.component';
+import { LeCoTDeLAugmentationMammaireParLipofillingCeQueVousDevezSavoirComponent } from './pages/Le-co-t-de-l-augmentation-mammaire-par-lipofilling-Ce-que-vous-devez-savoir/Le-co-t-de-l-augmentation-mammaire-par-lipofilling-Ce-que-vous-devez-savoir.component';
+import { LImportanceDArrTerDeFumerAvantLaChirurgieComponent } from './pages/L-importance-d-arr-ter-de-fumer-avant-la-chirurgie/L-importance-d-arr-ter-de-fumer-avant-la-chirurgie.component';
+import { OctobreRoseLaChirurgieRParatriceAprSUnCancerDuSeinComponent } from './pages/Octobre-rose-la-chirurgie-r-paratrice-apr-s-un-cancer-du-sein/Octobre-rose-la-chirurgie-r-paratrice-apr-s-un-cancer-du-sein.component';
+import { SolutionsPourRDuireEtLiminerLesPochesSousLesYeuxComponent } from './pages/Solutions-pour-r-duire-et-liminer-les-poches-sous-les-yeux/Solutions-pour-r-duire-et-liminer-les-poches-sous-les-yeux.component';
+import { AbdominoplastieLeResultatEtLesImperfectionsComponent } from './pages/abdominoplastie-le-resultat-et-les-imperfections/abdominoplastie-le-resultat-et-les-imperfections.component';
+import { AbdominoplastieLesComplicationsEtConclusionComponent } from './pages/abdominoplastie-les-complications-et-conclusion/abdominoplastie-les-complications-et-conclusion.component';
+import { AbdominoplastieLinterventionComponent } from './pages/abdominoplastie-lintervention/abdominoplastie-lintervention.component';
+import { AbdominoplastieObjectifsEtPrincipesComponent } from './pages/abdominoplastie-objectifs-et-principes/abdominoplastie-objectifs-et-principes.component';
+import { AbdominoplastieComponent } from './pages/abdominoplastie/abdominoplastie.component';
+import { ActualitesComponent } from './pages/actualites/actualites.component';
+import { AugmentationMammaireApresLinterventionComponent } from './pages/augmentation-mammaire-apres-lintervention/augmentation-mammaire-apres-lintervention.component';
+import { AugmentationMammaireAvantLinterventionComponent } from './pages/augmentation-mammaire-avant-lintervention/augmentation-mammaire-avant-lintervention.component';
+import { AugmentationMammaireLesImperfectionsDeResultatEtComplicationsEnvisageablesComponent } from './pages/augmentation-mammaire-les-imperfections-de-resultat-et-complications-envisageables/augmentation-mammaire-les-imperfections-de-resultat-et-complications-envisageables.component';
+import { AugmentationMammaireLesImplantsComponent } from './pages/augmentation-mammaire-les-implants/augmentation-mammaire-les-implants.component';
+import { AugmentationMammaireLinterventionComponent } from './pages/augmentation-mammaire-lintervention/augmentation-mammaire-lintervention.component';
+import { AugmentationMammaireLipofillingLyonComponent } from './pages/augmentation-mammaire-lipofilling-lyon/augmentation-mammaire-lipofilling-lyon.component';
+import { AugmentationMammaireParProthesesLyonComponent } from './pages/augmentation-mammaire-par-protheses-lyon/augmentation-mammaire-par-protheses-lyon.component';
+import { AugmentationMammaireQuestionsDiversesComponent } from './pages/augmentation-mammaire-questions-diverses/augmentation-mammaire-questions-diverses.component';
+import { BlepharoplastieApresLinterventionLesResultatsEtLesImperfectionsComponent } from './pages/blepharoplastie-apres-lintervention-les-resultats-et-les-imperfections/blepharoplastie-apres-lintervention-les-resultats-et-les-imperfections.component';
+import { BlepharoplastieAvantLinterventionEtLinterventionComponent } from './pages/blepharoplastie-avant-lintervention-et-lintervention/blepharoplastie-avant-lintervention-et-lintervention.component';
+import { BlepharoplastieLesComplicationsComponent } from './pages/blepharoplastie-les-complications/blepharoplastie-les-complications.component';
+import { BlepharoplastieQuestionsFrequentesComponent } from './pages/blepharoplastie-questions-frequentes/blepharoplastie-questions-frequentes.component';
+import { BlepharoplastieComponent } from './pages/blepharoplastie/blepharoplastie.component';
+import { BrachioplastieLiftingDesBrasApresLinterventionResultatEtImperfectionsComponent } from './pages/brachioplastie-lifting-des-bras-apres-lintervention-resultat-et-imperfections/brachioplastie-lifting-des-bras-apres-lintervention-resultat-et-imperfections.component';
+import { BrachioplastieLiftingDesBrasLesComplicationsComponent } from './pages/brachioplastie-lifting-des-bras-les-complications/brachioplastie-lifting-des-bras-les-complications.component';
+import { BrachioplastieLiftingDesBrasLinterventionComponent } from './pages/brachioplastie-lifting-des-bras-lintervention/brachioplastie-lifting-des-bras-lintervention.component';
+import { BrachioplastieLiftingDesBrasComponent } from './pages/brachioplastie-lifting-des-bras/brachioplastie-lifting-des-bras.component';
+import { ChirurgieDeLaSilhouetteComponent } from './pages/chirurgie-de-la-silhouette/chirurgie-de-la-silhouette.component';
+import { ChirurgieDesSeinsComponent } from './pages/chirurgie-des-seins/chirurgie-des-seins.component';
+import { ChirurgieDuVisageEtDeLaTeteComponent } from './pages/chirurgie-du-visage-et-de-la-tete/chirurgie-du-visage-et-de-la-tete.component';
+import { ConsultationComponent } from './pages/consultation/consultation.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { CoutAugmentationMammaireLipofillingComponent } from './pages/cout-augmentation-mammaire-lipofilling/cout-augmentation-mammaire-lipofilling.component';
+import { CruroplastieLiftingDesCuissesLeResultatEtLesImperfectionsComponent } from './pages/cruroplastie-lifting-des-cuisses-le-resultat-et-les-imperfections/cruroplastie-lifting-des-cuisses-le-resultat-et-les-imperfections.component';
+import { CruroplastieLiftingDesCuissesLesComplicationsComponent } from './pages/cruroplastie-lifting-des-cuisses-les-complications/cruroplastie-lifting-des-cuisses-les-complications.component';
+import { CruroplastieLiftingDesCuissesLinterventionEtApresLinterventionComponent } from './pages/cruroplastie-lifting-des-cuisses-lintervention-et-apres-lintervention/cruroplastie-lifting-des-cuisses-lintervention-et-apres-lintervention.component';
+import { CruroplastieLiftingDesCuissesComponent } from './pages/cruroplastie-lifting-des-cuisses/cruroplastie-lifting-des-cuisses.component';
+import { CureDeGynecomastieResultatEtComplicationsComponent } from './pages/cure-de-gynecomastie-resultat-et-complications/cure-de-gynecomastie-resultat-et-complications.component';
+import { CureDeGynecomastieSolutionsEtSuiteOperatoiresComponent } from './pages/cure-de-gynecomastie-solutions-et-suite-operatoires/cure-de-gynecomastie-solutions-et-suite-operatoires.component';
+import { CureDeGynecomastieComponent } from './pages/cure-de-gynecomastie/cure-de-gynecomastie.component';
+import { DepuisLe2Janvier2019LeDrPapaliaOpereAussiAuMedipoleLyonVilleurbanneComponent } from './pages/depuis-le-2-janvier-2019-le-dr-papalia-opere-aussi-au-medipole-lyon-villeurbanne/depuis-le-2-janvier-2019-le-dr-papalia-opere-aussi-au-medipole-lyon-villeurbanne.component';
+import { DermatoChirurgieApresLinterventionResultatEtProblemesPotentielsComponent } from './pages/dermato-chirurgie-apres-lintervention-resultat-et-problemes-potentiels/dermato-chirurgie-apres-lintervention-resultat-et-problemes-potentiels.component';
+import { DermatoChirurgieAvantLinterventionComponent } from './pages/dermato-chirurgie-avant-lintervention/dermato-chirurgie-avant-lintervention.component';
+import { DermatoChirurgieLesComplicationsComponent } from './pages/dermato-chirurgie-les-complications/dermato-chirurgie-les-complications.component';
+import { DermatoChirurgiePrincipesComponent } from './pages/dermato-chirurgie-principes/dermato-chirurgie-principes.component';
+import { DermatoChirurgieComponent } from './pages/dermato-chirurgie/dermato-chirurgie.component';
+import { DrIgorPapaliaComponent } from './pages/dr-igor-papalia/dr-igor-papalia.component';
+import { EliminerPochesSousLesYeuxComponent } from './pages/eliminer-poches-sous-les-yeux/eliminer-poches-sous-les-yeux.component';
+import { En201810DesFrancaisesOntEuRecoursLaChirurgieEsthetiqueComponent } from './pages/en-2018-10-des-francaises-ont-eu-recours-la-chirurgie-esthetique/en-2018-10-des-francaises-ont-eu-recours-la-chirurgie-esthetique.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { HospitalisationComponent } from './pages/hospitalisation/hospitalisation.component';
+import { HomeComponent } from './pages/home/home.component';
+import { InjectionAcideHyaluroniqueComponent } from './pages/injection-acide-hyaluronique/injection-acide-hyaluronique.component';
+import { InjectionDacideHyaluroniqueLeResultatEtLesComplicationsComponent } from './pages/injection-dacide-hyaluronique-le-resultat-et-les-complications/injection-dacide-hyaluronique-le-resultat-et-les-complications.component';
+import { InjectionDacideHyaluroniqueLinterventionComponent } from './pages/injection-dacide-hyaluronique-lintervention/injection-dacide-hyaluronique-lintervention.component';
+import { InjectionDacideHyaluroniquePrincipesComponent } from './pages/injection-dacide-hyaluronique-principes/injection-dacide-hyaluronique-principes.component';
+import { InjectionDacideHyaluroniqueQuestionsFrequentesComponent } from './pages/injection-dacide-hyaluronique-questions-frequentes/injection-dacide-hyaluronique-questions-frequentes.component';
+import { InjectionDeToxineBotuliqueAvantLinterventionComponent } from './pages/injection-de-toxine-botulique-avant-lintervention/injection-de-toxine-botulique-avant-lintervention.component';
+import { InjectionDeToxineBotuliqueLeResultatEtLesImperfectionsComponent } from './pages/injection-de-toxine-botulique-le-resultat-et-les-imperfections/injection-de-toxine-botulique-le-resultat-et-les-imperfections.component';
+import { InjectionDeToxineBotuliqueLesComplicationsComponent } from './pages/injection-de-toxine-botulique-les-complications/injection-de-toxine-botulique-les-complications.component';
+import { InjectionDeToxineBotuliqueLinterventionEtApresLinterventionComponent } from './pages/injection-de-toxine-botulique-lintervention-et-apres-lintervention/injection-de-toxine-botulique-lintervention-et-apres-lintervention.component';
+import { InjectionDeToxineBotuliqueComponent } from './pages/injection-de-toxine-botulique/injection-de-toxine-botulique.component';
+import { InjectionToxineBotuliqueQuestionsFrequentesComponent } from './pages/injection-toxine-botulique-questions-frequentes/injection-toxine-botulique-questions-frequentes.component';
+import { InjectionToxineBotuliqueComponent } from './pages/injection-toxine-botulique/injection-toxine-botulique.component';
+import { LeDrPapaliaIntegreLeCentreHospitalierDeSainteFoyComponent } from './pages/le-dr-papalia-integre-le-centre-hospitalier-de-sainte-foy/le-dr-papalia-integre-le-centre-hospitalier-de-sainte-foy.component';
+import { LiftingCentroFacialApresLinterventionComponent } from './pages/lifting-centro-facial-apres-lintervention/lifting-centro-facial-apres-lintervention.component';
+import { LiftingCentroFacialAvantLinterventionEtLinterventionComponent } from './pages/lifting-centro-facial-avant-lintervention-et-lintervention/lifting-centro-facial-avant-lintervention-et-lintervention.component';
+import { LiftingCentroFacialLeResultatEtLesImperfectionsComponent } from './pages/lifting-centro-facial-le-resultat-et-les-imperfections/lifting-centro-facial-le-resultat-et-les-imperfections.component';
+import { LiftingCentroFacialLesComplicationsComponent } from './pages/lifting-centro-facial-les-complications/lifting-centro-facial-les-complications.component';
+import { LiftingCentroFacialComponent } from './pages/lifting-centro-facial/lifting-centro-facial.component';
+import { LiftingCervicoFacialApresLinterventionEtLeResultatComponent } from './pages/lifting-cervico-facial-apres-lintervention-et-le-resultat/lifting-cervico-facial-apres-lintervention-et-le-resultat.component';
+import { LiftingCervicoFacialAvantLinterventionEtLinterventionComponent } from './pages/lifting-cervico-facial-avant-lintervention-et-lintervention/lifting-cervico-facial-avant-lintervention-et-lintervention.component';
+import { LiftingCervicoFacialLesImperfectionsEtLesComplicationsComponent } from './pages/lifting-cervico-facial-les-imperfections-et-les-complications/lifting-cervico-facial-les-imperfections-et-les-complications.component';
+import { LiftingCervicoFacialLyonComponent } from './pages/lifting-cervico-facial-lyon/lifting-cervico-facial-lyon.component';
+import { LiftingCervicoFacialQuestionsFrequentesComponent } from './pages/lifting-cervico-facial-questions-frequentes/lifting-cervico-facial-questions-frequentes.component';
+import { LiftingFacialEndoscopiqueApresLinterventionEtLeResultatComponent } from './pages/lifting-facial-endoscopique-apres-lintervention-et-le-resultat/lifting-facial-endoscopique-apres-lintervention-et-le-resultat.component';
+import { LiftingFacialEndoscopiqueAvantLinterventionComponent } from './pages/lifting-facial-endoscopique-avant-lintervention/lifting-facial-endoscopique-avant-lintervention.component';
+import { LiftingFacialEndoscopiqueLesImperfectionsEtLesComplicationsComponent } from './pages/lifting-facial-endoscopique-les-imperfections-et-les-complications/lifting-facial-endoscopique-les-imperfections-et-les-complications.component';
+import { LiftingFacialEndoscopiqueLinterventionComponent } from './pages/lifting-facial-endoscopique-lintervention/lifting-facial-endoscopique-lintervention.component';
+import { LiftingFacialEndoscopiqueComponent } from './pages/lifting-facial-endoscopique/lifting-facial-endoscopique.component';
+import { LiftingFrontoTemporalEndoscopiqueAvantLinterventionComponent } from './pages/lifting-fronto-temporal-endoscopique-avant-lintervention/lifting-fronto-temporal-endoscopique-avant-lintervention.component';
+import { LiftingFrontoTemporalEndoscopiqueLeResultatLesImperfectionsEtLesComplicationsComponent } from './pages/lifting-fronto-temporal-endoscopique-le-resultat-les-imperfections-et-les-complications/lifting-fronto-temporal-endoscopique-le-resultat-les-imperfections-et-les-complications.component';
+import { LiftingFrontoTemporalEndoscopiqueLinterventionEtApresLinterventionComponent } from './pages/lifting-fronto-temporal-endoscopique-lintervention-et-apres-lintervention/lifting-fronto-temporal-endoscopique-lintervention-et-apres-lintervention.component';
+import { LiftingFrontoTemporalEndoscopiqueComponent } from './pages/lifting-fronto-temporal-endoscopique/lifting-fronto-temporal-endoscopique.component';
+import { LiftingTemporalAvantLinterventionComponent } from './pages/lifting-temporal-avant-lintervention/lifting-temporal-avant-lintervention.component';
+import { LiftingTemporalLeResultatLesImperfectionsEtLesComplicationsComponent } from './pages/lifting-temporal-le-resultat-les-imperfections-et-les-complications/lifting-temporal-le-resultat-les-imperfections-et-les-complications.component';
+import { LiftingTemporalLinterventionEtApresLinterventionComponent } from './pages/lifting-temporal-lintervention-et-apres-lintervention/lifting-temporal-lintervention-et-apres-lintervention.component';
+import { LiftingTemporalComponent } from './pages/lifting-temporal/lifting-temporal.component';
+import { LimportanceDarreterDeFumerAvantLaChirurgieMoissanstabacComponent } from './pages/limportance-darreter-de-fumer-avant-la-chirurgie-moissanstabac/limportance-darreter-de-fumer-avant-la-chirurgie-moissanstabac.component';
+import { LipoaspirationLiposuccionComponent } from './pages/lipoaspiration-liposuccion/lipoaspiration-liposuccion.component';
+import { LipoaspirationliposuccionLeResultatEtLesImperfectionsComponent } from './pages/lipoaspirationliposuccion-le-resultat-et-les-imperfections/lipoaspirationliposuccion-le-resultat-et-les-imperfections.component';
+import { LipoaspirationliposuccionLesComplicationsComponent } from './pages/lipoaspirationliposuccion-les-complications/lipoaspirationliposuccion-les-complications.component';
+import { LipoaspirationliposuccionLinterventionComponent } from './pages/lipoaspirationliposuccion-lintervention/lipoaspirationliposuccion-lintervention.component';
+import { LipomodelageLipostructureDuVisageLinterventionEtLesSuitesPostOperatoiresComponent } from './pages/lipomodelage-lipostructure-du-visage-lintervention-et-les-suites-post-operatoires/lipomodelage-lipostructure-du-visage-lintervention-et-les-suites-post-operatoires.component';
+import { LipomodelageLipostructureDuVisageResultatEtComplicationsComponent } from './pages/lipomodelage-lipostructure-du-visage-resultat-et-complications/lipomodelage-lipostructure-du-visage-resultat-et-complications.component';
+import { LipomodelageLipostructureDuVisageComponent } from './pages/lipomodelage-lipostructure-du-visage/lipomodelage-lipostructure-du-visage.component';
+import { LipomodelageLipostructureLipofillingAvantLinterventionComponent } from './pages/lipomodelage-lipostructure-lipofilling-avant-lintervention/lipomodelage-lipostructure-lipofilling-avant-lintervention.component';
+import { LipomodelageLipostructureLipofillingLeResultatEtLesImperfectionsComponent } from './pages/lipomodelage-lipostructure-lipofilling-le-resultat-et-les-imperfections/lipomodelage-lipostructure-lipofilling-le-resultat-et-les-imperfections.component';
+import { LipomodelageLipostructureLipofillingLesComplicationsComponent } from './pages/lipomodelage-lipostructure-lipofilling-les-complications/lipomodelage-lipostructure-lipofilling-les-complications.component';
+import { LipomodelageLipostructureLipofillingLinterventionComponent } from './pages/lipomodelage-lipostructure-lipofilling-lintervention/lipomodelage-lipostructure-lipofilling-lintervention.component';
+import { LipomodelageLipostructureLipofillingComponent } from './pages/lipomodelage-lipostructure-lipofilling/lipomodelage-lipostructure-lipofilling.component';
+import { MedecineEsthetiqueComponent } from './pages/medecine-esthetique/medecine-esthetique.component';
+import { MentionsLegalesComponent } from './pages/mentions-legales/mentions-legales.component';
+import { NousTrouverComponent } from './pages/nous-trouver/nous-trouver.component';
+import { OctobreRoseLaChirurgieReparatriceApresUnCancerDuSeinComponent } from './pages/octobre-rose-la-chirurgie-reparatrice-apres-un-cancer-du-sein/octobre-rose-la-chirurgie-reparatrice-apres-un-cancer-du-sein.component';
+import { OtoplastieAvantLinterventionComponent } from './pages/otoplastie-avant-lintervention/otoplastie-avant-lintervention.component';
+import { OtoplastieLeResultatLesExemplesEtLesImperfectionsComponent } from './pages/otoplastie-le-resultat-les-exemples-et-les-imperfections/otoplastie-le-resultat-les-exemples-et-les-imperfections.component';
+import { OtoplastieLesComplicationsComponent } from './pages/otoplastie-les-complications/otoplastie-les-complications.component';
+import { OtoplastieLinterventionEtApresLinterventionComponent } from './pages/otoplastie-lintervention-et-apres-lintervention/otoplastie-lintervention-et-apres-lintervention.component';
+import { OtoplastieComponent } from './pages/otoplastie/otoplastie.component';
+import { PhotosAbdominoplastieComponent } from './pages/photos-abdominoplastie/photos-abdominoplastie.component';
+import { PhotosAugmentationMammaireComponent } from './pages/photos-augmentation-mammaire/photos-augmentation-mammaire.component';
+import { PhotosBrachioplastieLiftingDesBrasComponent } from './pages/photos-brachioplastie-lifting-des-bras/photos-brachioplastie-lifting-des-bras.component';
+import { PhotosCruroplastieLiftingDesCuissesComponent } from './pages/photos-cruroplastie-lifting-des-cuisses/photos-cruroplastie-lifting-des-cuisses.component';
+import { PhotosDinterventionsComponent } from './pages/photos-dinterventions/photos-dinterventions.component';
+import { PhotosLiposuccionComponent } from './pages/photos-liposuccion/photos-liposuccion.component';
+import { PhotosOtoplastieComponent } from './pages/photos-otoplastie/photos-otoplastie.component';
+import { PhotosReductionMammaireComponent } from './pages/photos-reduction-mammaire/photos-reduction-mammaire.component';
+import { PrendreRendezVousComponent } from './pages/prendre-rendez-vous/prendre-rendez-vous.component';
+import { ProthesesMammairesDescenteComponent } from './pages/protheses-mammaires-descente/protheses-mammaires-descente.component';
+import { PtoseMammaireLeResultatLesImperfectionsLesComplicationsComponent } from './pages/ptose-mammaire-le-resultat-les-imperfections-les-complications/ptose-mammaire-le-resultat-les-imperfections-les-complications.component';
+import { PtoseMammaireLinterventionComponent } from './pages/ptose-mammaire-lintervention/ptose-mammaire-lintervention.component';
+import { PtoseMammaireComponent } from './pages/ptose-mammaire/ptose-mammaire.component';
+import { RadiofrequenceComponent } from './pages/radiofrequence/radiofrequence.component';
+import { ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenDefinitionObjectifsEtAlternativesComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-definition-objectifs-et-alternatives/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-definition-objectifs-et-alternatives.component';
+import { ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenLeResultatEtLesImperfectionsComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-le-resultat-et-les-imperfections/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-le-resultat-et-les-imperfections.component';
+import { ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenLesComplicationsComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-les-complications/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-les-complications.component';
+import { ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenLinterventionComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-lintervention/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-lintervention.component';
+import { ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenPrincipesComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-principes/reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-principes.component';
+import { ReconstructionDuSeinParLambeauDeMuscleGrandDorsalLeResultatEtLesImperfectionsComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-le-resultat-et-les-imperfections/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-le-resultat-et-les-imperfections.component';
+import { ReconstructionDuSeinParLambeauDeMuscleGrandDorsalLesComplicationsComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-les-complications/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-les-complications.component';
+import { ReconstructionDuSeinParLambeauDeMuscleGrandDorsalLinterventionComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-lintervention/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-lintervention.component';
+import { ReconstructionDuSeinParLambeauDeMuscleGrandDorsalPrincipesEtProthesesComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-principes-et-protheses/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-principes-et-protheses.component';
+import { ReconstructionDuSeinParLambeauDeMuscleGrandDorsalComponent } from './pages/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal/reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal.component';
+import { ReconstructionDuSeinParProtheseLeResultatEtLesImperfectionsComponent } from './pages/reconstruction-du-sein-par-prothese-le-resultat-et-les-imperfections/reconstruction-du-sein-par-prothese-le-resultat-et-les-imperfections.component';
+import { ReconstructionDuSeinParProtheseLesComplicationsComponent } from './pages/reconstruction-du-sein-par-prothese-les-complications/reconstruction-du-sein-par-prothese-les-complications.component';
+import { ReconstructionDuSeinParProtheseLinterventionComponent } from './pages/reconstruction-du-sein-par-prothese-lintervention/reconstruction-du-sein-par-prothese-lintervention.component';
+import { ReconstructionDuSeinParProthesePrincipesEtProthesesComponent } from './pages/reconstruction-du-sein-par-prothese-principes-et-protheses/reconstruction-du-sein-par-prothese-principes-et-protheses.component';
+import { ReconstructionDuSeinParProtheseComponent } from './pages/reconstruction-du-sein-par-prothese/reconstruction-du-sein-par-prothese.component';
+import { ReductionMammaireApresLinterventionResultatsExemplesComponent } from './pages/reduction-mammaire-apres-lintervention-resultats-exemples/reduction-mammaire-apres-lintervention-resultats-exemples.component';
+import { ReductionMammaireAvantLinterventionComponent } from './pages/reduction-mammaire-avant-lintervention/reduction-mammaire-avant-lintervention.component';
+import { ReductionMammaireLesImperfectionsDeResultatEtComplicationsEnvisageablesComponent } from './pages/reduction-mammaire-les-imperfections-de-resultat-et-complications-envisageables/reduction-mammaire-les-imperfections-de-resultat-et-complications-envisageables.component';
+import { ReductionMammaireQuestionsFrequentesComponent } from './pages/reduction-mammaire-questions-frequentes/reduction-mammaire-questions-frequentes.component';
+import { ReductionMammaireComponent } from './pages/reduction-mammaire/reduction-mammaire.component';
+import { RhinoplastieLeResultatLesImperfectionsEtLesComplicationsComponent } from './pages/rhinoplastie-le-resultat-les-imperfections-et-les-complications/rhinoplastie-le-resultat-les-imperfections-et-les-complications.component';
+import { RhinoplastieLinterventionEtApresLinterventionComponent } from './pages/rhinoplastie-lintervention-et-apres-lintervention/rhinoplastie-lintervention-et-apres-lintervention.component';
+import { RhinoplastieComponent } from './pages/rhinoplastie/rhinoplastie.component';
+import { TarifsComponent } from './pages/tarifs/tarifs.component';
+import { ThemesAscoThemeImagesPictoTemoignagesComponent } from './pages/themes-asco-theme-images-picto-temoignages/themes-asco-theme-images-picto-temoignages.component';
+
+
+export const routes: Routes = [
+  { path: "Combien de temps faut-il pour que les prothèses mammaires descendent ", component: CombienDeTempsFautIlPourQueLesProthSesMammairesDescendentComponent },
+  { path: "Depuis le 2 janvier 2019, le Dr Papalia opère aussi au Médipôle Lyon Villeurbanne", component: DepuisLe2Janvier2019LeDrPapaliaOpReAussiAuMDipLeLyonVilleurbanneComponent },
+  { path: "En 2018, 10 % des françaises ont eu recours à la chirurgie esthétique", component: En201810DesFranAisesOntEuRecoursLaChirurgieEsthTiqueComponent },
+  { path: "Le Dr Papalia intègre le Centre Hospitalier de Sainte-Foy", component: LeDrPapaliaIntGreLeCentreHospitalierDeSainteFoyComponent },
+  { path: "Le coût de l'augmentation mammaire par lipofilling _ Ce que vous devez savoir", component: LeCoTDeLAugmentationMammaireParLipofillingCeQueVousDevezSavoirComponent },
+  { path: "L’importance d’arrêter de fumer avant la chirurgie (", component: LImportanceDArrTerDeFumerAvantLaChirurgieComponent },
+  { path: "Octobre rose _ la chirurgie réparatrice après un cancer du sein", component: OctobreRoseLaChirurgieRParatriceAprSUnCancerDuSeinComponent },
+  { path: "Solutions pour réduire et éliminer les poches sous les yeux", component: SolutionsPourRDuireEtLiminerLesPochesSousLesYeuxComponent },
+  { path: "abdominoplastie-le-resultat-et-les-imperfections", component: AbdominoplastieLeResultatEtLesImperfectionsComponent },
+  { path: "abdominoplastie-les-complications-et-conclusion", component: AbdominoplastieLesComplicationsEtConclusionComponent },
+  { path: "abdominoplastie-lintervention", component: AbdominoplastieLinterventionComponent },
+  { path: "abdominoplastie-objectifs-et-principes", component: AbdominoplastieObjectifsEtPrincipesComponent },
+  { path: "abdominoplastie", component: AbdominoplastieComponent },
+  { path: "actualites", component: ActualitesComponent },
+  { path: "augmentation-mammaire-apres-lintervention", component: AugmentationMammaireApresLinterventionComponent },
+  { path: "augmentation-mammaire-avant-lintervention", component: AugmentationMammaireAvantLinterventionComponent },
+  { path: "augmentation-mammaire-les-imperfections-de-resultat-et-complications-envisageables", component: AugmentationMammaireLesImperfectionsDeResultatEtComplicationsEnvisageablesComponent },
+  { path: "augmentation-mammaire-les-implants", component: AugmentationMammaireLesImplantsComponent },
+  { path: "augmentation-mammaire-lintervention", component: AugmentationMammaireLinterventionComponent },
+  { path: "augmentation-mammaire-lipofilling-lyon", component: AugmentationMammaireLipofillingLyonComponent },
+  { path: "augmentation-mammaire-par-protheses-lyon", component: AugmentationMammaireParProthesesLyonComponent },
+  { path: "augmentation-mammaire-questions-diverses", component: AugmentationMammaireQuestionsDiversesComponent },
+  { path: "blepharoplastie-apres-lintervention-les-resultats-et-les-imperfections", component: BlepharoplastieApresLinterventionLesResultatsEtLesImperfectionsComponent },
+  { path: "blepharoplastie-avant-lintervention-et-lintervention", component: BlepharoplastieAvantLinterventionEtLinterventionComponent },
+  { path: "blepharoplastie-les-complications", component: BlepharoplastieLesComplicationsComponent },
+  { path: "blepharoplastie-questions-frequentes", component: BlepharoplastieQuestionsFrequentesComponent },
+  { path: "blepharoplastie", component: BlepharoplastieComponent },
+  { path: "brachioplastie-lifting-des-bras-apres-lintervention-resultat-et-imperfections", component: BrachioplastieLiftingDesBrasApresLinterventionResultatEtImperfectionsComponent },
+  { path: "brachioplastie-lifting-des-bras-les-complications", component: BrachioplastieLiftingDesBrasLesComplicationsComponent },
+  { path: "brachioplastie-lifting-des-bras-lintervention", component: BrachioplastieLiftingDesBrasLinterventionComponent },
+  { path: "brachioplastie-lifting-des-bras", component: BrachioplastieLiftingDesBrasComponent },
+  { path: "chirurgie-de-la-silhouette", component: ChirurgieDeLaSilhouetteComponent },
+  { path: "chirurgie-des-seins", component: ChirurgieDesSeinsComponent },
+  { path: "chirurgie-du-visage-et-de-la-tete", component: ChirurgieDuVisageEtDeLaTeteComponent },
+  { path: "consultation", component: ConsultationComponent },
+  { path: "contact", component: ContactComponent },
+  { path: "cout-augmentation-mammaire-lipofilling", component: CoutAugmentationMammaireLipofillingComponent },
+  { path: "cruroplastie-lifting-des-cuisses-le-resultat-et-les-imperfections", component: CruroplastieLiftingDesCuissesLeResultatEtLesImperfectionsComponent },
+  { path: "cruroplastie-lifting-des-cuisses-les-complications", component: CruroplastieLiftingDesCuissesLesComplicationsComponent },
+  { path: "cruroplastie-lifting-des-cuisses-lintervention-et-apres-lintervention", component: CruroplastieLiftingDesCuissesLinterventionEtApresLinterventionComponent },
+  { path: "cruroplastie-lifting-des-cuisses", component: CruroplastieLiftingDesCuissesComponent },
+  { path: "cure-de-gynecomastie-resultat-et-complications", component: CureDeGynecomastieResultatEtComplicationsComponent },
+  { path: "cure-de-gynecomastie-solutions-et-suite-operatoires", component: CureDeGynecomastieSolutionsEtSuiteOperatoiresComponent },
+  { path: "cure-de-gynecomastie", component: CureDeGynecomastieComponent },
+  { path: "depuis-le-2-janvier-2019-le-dr-papalia-opere-aussi-au-medipole-lyon-villeurbanne", component: DepuisLe2Janvier2019LeDrPapaliaOpereAussiAuMedipoleLyonVilleurbanneComponent },
+  { path: "dermato-chirurgie-apres-lintervention-resultat-et-problemes-potentiels", component: DermatoChirurgieApresLinterventionResultatEtProblemesPotentielsComponent },
+  { path: "dermato-chirurgie-avant-lintervention", component: DermatoChirurgieAvantLinterventionComponent },
+  { path: "dermato-chirurgie-les-complications", component: DermatoChirurgieLesComplicationsComponent },
+  { path: "dermato-chirurgie-principes", component: DermatoChirurgiePrincipesComponent },
+  { path: "dermato-chirurgie", component: DermatoChirurgieComponent },
+  { path: "dr-igor-papalia", component: DrIgorPapaliaComponent },
+  { path: "eliminer-poches-sous-les-yeux", component: EliminerPochesSousLesYeuxComponent },
+  { path: "en-2018-10-des-francaises-ont-eu-recours-la-chirurgie-esthetique", component: En201810DesFrancaisesOntEuRecoursLaChirurgieEsthetiqueComponent },
+  { path: "faq", component: FaqComponent },
+  { path: "hospitalisation", component: HospitalisationComponent },
+  { path: "", component: HomeComponent, pathMatch: 'full' },
+  { path: "injection-acide-hyaluronique", component: InjectionAcideHyaluroniqueComponent },
+  { path: "injection-dacide-hyaluronique-le-resultat-et-les-complications", component: InjectionDacideHyaluroniqueLeResultatEtLesComplicationsComponent },
+  { path: "injection-dacide-hyaluronique-lintervention", component: InjectionDacideHyaluroniqueLinterventionComponent },
+  { path: "injection-dacide-hyaluronique-principes", component: InjectionDacideHyaluroniquePrincipesComponent },
+  { path: "injection-dacide-hyaluronique-questions-frequentes", component: InjectionDacideHyaluroniqueQuestionsFrequentesComponent },
+  { path: "injection-de-toxine-botulique-avant-lintervention", component: InjectionDeToxineBotuliqueAvantLinterventionComponent },
+  { path: "injection-de-toxine-botulique-le-resultat-et-les-imperfections", component: InjectionDeToxineBotuliqueLeResultatEtLesImperfectionsComponent },
+  { path: "injection-de-toxine-botulique-les-complications", component: InjectionDeToxineBotuliqueLesComplicationsComponent },
+  { path: "injection-de-toxine-botulique-lintervention-et-apres-lintervention", component: InjectionDeToxineBotuliqueLinterventionEtApresLinterventionComponent },
+  { path: "injection-de-toxine-botulique", component: InjectionDeToxineBotuliqueComponent },
+  { path: "injection-toxine-botulique-questions-frequentes", component: InjectionToxineBotuliqueQuestionsFrequentesComponent },
+  { path: "injection-toxine-botulique", component: InjectionToxineBotuliqueComponent },
+  { path: "le-dr-papalia-integre-le-centre-hospitalier-de-sainte-foy", component: LeDrPapaliaIntegreLeCentreHospitalierDeSainteFoyComponent },
+  { path: "lifting-centro-facial-apres-lintervention", component: LiftingCentroFacialApresLinterventionComponent },
+  { path: "lifting-centro-facial-avant-lintervention-et-lintervention", component: LiftingCentroFacialAvantLinterventionEtLinterventionComponent },
+  { path: "lifting-centro-facial-le-resultat-et-les-imperfections", component: LiftingCentroFacialLeResultatEtLesImperfectionsComponent },
+  { path: "lifting-centro-facial-les-complications", component: LiftingCentroFacialLesComplicationsComponent },
+  { path: "lifting-centro-facial", component: LiftingCentroFacialComponent },
+  { path: "lifting-cervico-facial-apres-lintervention-et-le-resultat", component: LiftingCervicoFacialApresLinterventionEtLeResultatComponent },
+  { path: "lifting-cervico-facial-avant-lintervention-et-lintervention", component: LiftingCervicoFacialAvantLinterventionEtLinterventionComponent },
+  { path: "lifting-cervico-facial-les-imperfections-et-les-complications", component: LiftingCervicoFacialLesImperfectionsEtLesComplicationsComponent },
+  { path: "lifting-cervico-facial-lyon", component: LiftingCervicoFacialLyonComponent },
+  { path: "lifting-cervico-facial-questions-frequentes", component: LiftingCervicoFacialQuestionsFrequentesComponent },
+  { path: "lifting-facial-endoscopique-apres-lintervention-et-le-resultat", component: LiftingFacialEndoscopiqueApresLinterventionEtLeResultatComponent },
+  { path: "lifting-facial-endoscopique-avant-lintervention", component: LiftingFacialEndoscopiqueAvantLinterventionComponent },
+  { path: "lifting-facial-endoscopique-les-imperfections-et-les-complications", component: LiftingFacialEndoscopiqueLesImperfectionsEtLesComplicationsComponent },
+  { path: "lifting-facial-endoscopique-lintervention", component: LiftingFacialEndoscopiqueLinterventionComponent },
+  { path: "lifting-facial-endoscopique", component: LiftingFacialEndoscopiqueComponent },
+  { path: "lifting-fronto-temporal-endoscopique-avant-lintervention", component: LiftingFrontoTemporalEndoscopiqueAvantLinterventionComponent },
+  { path: "lifting-fronto-temporal-endoscopique-le-resultat-les-imperfections-et-les-complications", component: LiftingFrontoTemporalEndoscopiqueLeResultatLesImperfectionsEtLesComplicationsComponent },
+  { path: "lifting-fronto-temporal-endoscopique-lintervention-et-apres-lintervention", component: LiftingFrontoTemporalEndoscopiqueLinterventionEtApresLinterventionComponent },
+  { path: "lifting-fronto-temporal-endoscopique", component: LiftingFrontoTemporalEndoscopiqueComponent },
+  { path: "lifting-temporal-avant-lintervention", component: LiftingTemporalAvantLinterventionComponent },
+  { path: "lifting-temporal-le-resultat-les-imperfections-et-les-complications", component: LiftingTemporalLeResultatLesImperfectionsEtLesComplicationsComponent },
+  { path: "lifting-temporal-lintervention-et-apres-lintervention", component: LiftingTemporalLinterventionEtApresLinterventionComponent },
+  { path: "lifting-temporal", component: LiftingTemporalComponent },
+  { path: "limportance-darreter-de-fumer-avant-la-chirurgie-moissanstabac", component: LimportanceDarreterDeFumerAvantLaChirurgieMoissanstabacComponent },
+  { path: "lipoaspiration-liposuccion", component: LipoaspirationLiposuccionComponent },
+  { path: "lipoaspirationliposuccion-le-resultat-et-les-imperfections", component: LipoaspirationliposuccionLeResultatEtLesImperfectionsComponent },
+  { path: "lipoaspirationliposuccion-les-complications", component: LipoaspirationliposuccionLesComplicationsComponent },
+  { path: "lipoaspirationliposuccion-lintervention", component: LipoaspirationliposuccionLinterventionComponent },
+  { path: "lipomodelage-lipostructure-du-visage-lintervention-et-les-suites-post-operatoires", component: LipomodelageLipostructureDuVisageLinterventionEtLesSuitesPostOperatoiresComponent },
+  { path: "lipomodelage-lipostructure-du-visage-resultat-et-complications", component: LipomodelageLipostructureDuVisageResultatEtComplicationsComponent },
+  { path: "lipomodelage-lipostructure-du-visage", component: LipomodelageLipostructureDuVisageComponent },
+  { path: "lipomodelage-lipostructure-lipofilling-avant-lintervention", component: LipomodelageLipostructureLipofillingAvantLinterventionComponent },
+  { path: "lipomodelage-lipostructure-lipofilling-le-resultat-et-les-imperfections", component: LipomodelageLipostructureLipofillingLeResultatEtLesImperfectionsComponent },
+  { path: "lipomodelage-lipostructure-lipofilling-les-complications", component: LipomodelageLipostructureLipofillingLesComplicationsComponent },
+  { path: "lipomodelage-lipostructure-lipofilling-lintervention", component: LipomodelageLipostructureLipofillingLinterventionComponent },
+  { path: "lipomodelage-lipostructure-lipofilling", component: LipomodelageLipostructureLipofillingComponent },
+  { path: "medecine-esthetique", component: MedecineEsthetiqueComponent },
+  { path: "mentions-legales", component: MentionsLegalesComponent },
+  { path: "nous-trouver", component: NousTrouverComponent },
+  { path: "octobre-rose-la-chirurgie-reparatrice-apres-un-cancer-du-sein", component: OctobreRoseLaChirurgieReparatriceApresUnCancerDuSeinComponent },
+  { path: "otoplastie-avant-lintervention", component: OtoplastieAvantLinterventionComponent },
+  { path: "otoplastie-le-resultat-les-exemples-et-les-imperfections", component: OtoplastieLeResultatLesExemplesEtLesImperfectionsComponent },
+  { path: "otoplastie-les-complications", component: OtoplastieLesComplicationsComponent },
+  { path: "otoplastie-lintervention-et-apres-lintervention", component: OtoplastieLinterventionEtApresLinterventionComponent },
+  { path: "otoplastie", component: OtoplastieComponent },
+  { path: "photos-abdominoplastie", component: PhotosAbdominoplastieComponent },
+  { path: "photos-augmentation-mammaire", component: PhotosAugmentationMammaireComponent },
+  { path: "photos-brachioplastie-lifting-des-bras", component: PhotosBrachioplastieLiftingDesBrasComponent },
+  { path: "photos-cruroplastie-lifting-des-cuisses", component: PhotosCruroplastieLiftingDesCuissesComponent },
+  { path: "photos-dinterventions", component: PhotosDinterventionsComponent },
+  { path: "photos-liposuccion", component: PhotosLiposuccionComponent },
+  { path: "photos-otoplastie", component: PhotosOtoplastieComponent },
+  { path: "photos-reduction-mammaire", component: PhotosReductionMammaireComponent },
+  { path: "prendre-rendez-vous", component: PrendreRendezVousComponent },
+  { path: "protheses-mammaires-descente", component: ProthesesMammairesDescenteComponent },
+  { path: "ptose-mammaire-le-resultat-les-imperfections-les-complications", component: PtoseMammaireLeResultatLesImperfectionsLesComplicationsComponent },
+  { path: "ptose-mammaire-lintervention", component: PtoseMammaireLinterventionComponent },
+  { path: "ptose-mammaire", component: PtoseMammaireComponent },
+  { path: "radiofrequence", component: RadiofrequenceComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-definition-objectifs-et-alternatives", component: ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenDefinitionObjectifsEtAlternativesComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-le-resultat-et-les-imperfections", component: ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenLeResultatEtLesImperfectionsComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-les-complications", component: ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenLesComplicationsComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-lintervention", component: ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenLinterventionComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-droit-de-labdomen-principes", component: ReconstructionDuSeinParLambeauDeMuscleDroitDeLabdomenPrincipesComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-le-resultat-et-les-imperfections", component: ReconstructionDuSeinParLambeauDeMuscleGrandDorsalLeResultatEtLesImperfectionsComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-les-complications", component: ReconstructionDuSeinParLambeauDeMuscleGrandDorsalLesComplicationsComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-lintervention", component: ReconstructionDuSeinParLambeauDeMuscleGrandDorsalLinterventionComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal-principes-et-protheses", component: ReconstructionDuSeinParLambeauDeMuscleGrandDorsalPrincipesEtProthesesComponent },
+  { path: "reconstruction-du-sein-par-lambeau-de-muscle-grand-dorsal", component: ReconstructionDuSeinParLambeauDeMuscleGrandDorsalComponent },
+  { path: "reconstruction-du-sein-par-prothese-le-resultat-et-les-imperfections", component: ReconstructionDuSeinParProtheseLeResultatEtLesImperfectionsComponent },
+  { path: "reconstruction-du-sein-par-prothese-les-complications", component: ReconstructionDuSeinParProtheseLesComplicationsComponent },
+  { path: "reconstruction-du-sein-par-prothese-lintervention", component: ReconstructionDuSeinParProtheseLinterventionComponent },
+  { path: "reconstruction-du-sein-par-prothese-principes-et-protheses", component: ReconstructionDuSeinParProthesePrincipesEtProthesesComponent },
+  { path: "reconstruction-du-sein-par-prothese", component: ReconstructionDuSeinParProtheseComponent },
+  { path: "reduction-mammaire-apres-lintervention-resultats-exemples", component: ReductionMammaireApresLinterventionResultatsExemplesComponent },
+  { path: "reduction-mammaire-avant-lintervention", component: ReductionMammaireAvantLinterventionComponent },
+  { path: "reduction-mammaire-les-imperfections-de-resultat-et-complications-envisageables", component: ReductionMammaireLesImperfectionsDeResultatEtComplicationsEnvisageablesComponent },
+  { path: "reduction-mammaire-questions-frequentes", component: ReductionMammaireQuestionsFrequentesComponent },
+  { path: "reduction-mammaire", component: ReductionMammaireComponent },
+  { path: "rhinoplastie-le-resultat-les-imperfections-et-les-complications", component: RhinoplastieLeResultatLesImperfectionsEtLesComplicationsComponent },
+  { path: "rhinoplastie-lintervention-et-apres-lintervention", component: RhinoplastieLinterventionEtApresLinterventionComponent },
+  { path: "rhinoplastie", component: RhinoplastieComponent },
+  { path: "tarifs", component: TarifsComponent },
+  { path: "themes/asco_theme/images/picto_temoignages", component: ThemesAscoThemeImagesPictoTemoignagesComponent },
+  { path: '**', redirectTo: '' }
+];
