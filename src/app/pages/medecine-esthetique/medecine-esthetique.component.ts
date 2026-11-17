@@ -6,6 +6,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   templateUrl: './medecine-esthetique.component.html',
+  styleUrl: './medecine-esthetique.component.css',
   encapsulation: ViewEncapsulation.None
 })
 export class MedecineEsthetiqueComponent {}

@@ -1,0 +1,102 @@
+{
+  "header": {
+    "findUs": "Nous trouver",
+    "call": "Téléphone",
+    "doctorTitle": "Dr. Igor PAPALIA",
+    "doctorSubtitle": "Chirurgien plastique et esthétique à Lyon",
+    "tarifs": "Tarifs",
+    "contact": "Contact",
+    "rdv": "Rendez-vous"
+  },
+  "footer": {
+    "doctorTitle": "Dr. Igor PAPALIA",
+    "doctorSubtitle": "Chirurgien plastique et esthétique à Lyon",
+    "interventions": "Interventions",
+    "medecineEsthetique": "Médecine esthétique",
+    "parcoursPatient": "Parcours patient",
+    "photos": "Photos",
+    "faq": "FAQ",
+    "tarifs": "Tarifs",
+    "whereToFindUs": "Où nous trouver ?",
+    "lyon": "Lyon",
+    "villeurbanne": "Villeurbanne",
+    "vienne": "Vienne",
+    "takeRdv": "Prendre rendez-vous",
+    "legalNotice": "Mentions légales"
+  },
+  "home": {
+    "hero": {
+      "tag": "Dr Igor PAPALIA",
+      "title": "Combien de temps faut-il pour que les prothèses mammaires descendent ?"
+    },
+    "welcome": {
+      "title": "BIENVENUE SUR LE SITE DU DR. IGOR PAPALIA",
+      "text": "Le docteur PAPALIA est un Spécialiste en Chirurgie Plastique, Reconstructrice et Esthétique, qualifié par l’Ordre des Médecins du Rhône.",
+      "more": "En savoir plus"
+    },
+    "banner": {
+      "title": "LA CHIRURGIE ESTHÉTIQUE",
+      "subtitle": "L’excellence médicale au service de l’harmonie et de l’équilibre."
+    },
+    "transformation": {
+      "title": "L'ART DE LA TRANSFORMATION",
+      "p1": "La chirurgie esthétique",
+      "p2": "s'inscrit dans la continuité de la chirurgie plastique et reconstructrice. Elle repose sur des",
+      "p3": "techniques médicales éprouvées",
+      "p4": ", en constante évolution, alliant",
+      "p5": "rigueur",
+      "p6": "scientifique,",
+      "p7": "précision",
+      "p8": "et sens de l'",
+      "p9": "harmonie",
+      "p10": "."
+    },
+    "interventions": {
+      "title": "LES INTERVENTIONS",
+      "subtitle": "Deux approches complémentaires pour sublimer votre silhouette et votre visage.",
+      "chirurgieTitle": "CHIRURGIE ESTHÉTIQUE",
+      "seinsPrefix": "Chirurgie des",
+      "seins": "SEINS",
+      "silhouettePrefix": "Chirurgie de la",
+      "silhouette": "SILHOUETTE",
+      "visagePrefix": "Chirurgie du",
+      "visage": "VISAGE",
+      "cutanePrefix": "Chirurgie",
+      "cutane": "CUTANÉ",
+      "medecineTitle": "MÉDECINE ESTHÉTIQUE",
+      "acidePrefix": "Injection",
+      "acide": "ACIDE HYALURONIQUE",
+      "botox": "TOXINE BOTULIQUE",
+      "radiofrequence": "RADIO-FRÉQUENCE"
+    },
+    "doctor": {
+      "title": "Le Dr Papalia",
+      "tagline": "L'expertise médicale au service de votre harmonie.",
+      "desc1": "Spécialiste en chirurgie plastique, reconstructrice et esthétique, le Dr Papalia met son expertise au service de résultats naturels et personnalisés.",
+      "desc2": "Chaque intervention est pensée avec précision, dans le respect de votre morphologie et de vos attentes.",
+      "whyTitle": "Pourquoi choisir le docteur Papalia",
+      "point1": "Diplômé en chirurgie plastique, reconstructrice et esthétique",
+      "point2": "Approche personnalisée",
+      "point3": "Techniques modernes et éprouvées",
+      "point4": "Résultats naturels et harmonieux",
+      "discover": "Découvrir le parcours →"
+    },
+    "locations": {
+      "title": "NOS LIEUX D'ACTIVITÉ",
+      "subtitle": "Le Dr Papalia vous accueille à Lyon, Villeurbanne et Vienne.",
+      "lyon": "LYON",
+      "medipole": "MÉDIPÔLE",
+      "trenel": "TRÉNEL"
+    },
+    "news": {
+      "title": "LES ACTUALITÉS",
+      "date": "02 Avr 2025",
+      "news1Title": "Combien de temps faut-il pour que les prothèses mammaires descendent ?",
+      "news1Excerpt": "L'augmentation mammaire est une intervention courante en chirurgie esthétique des seins, mais elle suscite de nombreuses questions, notamment : \"Combien de temps pour que les prothèses mammaires descendent ?\"...",
+      "news2Title": "Le coût de l'augmentation mammaire par lipofilling : Ce que vous devez savoir",
+      "news2Excerpt": "L'augmentation mammaire par lipofilling est de plus en plus populaire parmi celles qui recherchent une alternative naturelle aux implants mammaires...",
+      "readMore": "lire la suite →",
+      "allNews": "Toutes les actualités →"
+    }
+  }
+}

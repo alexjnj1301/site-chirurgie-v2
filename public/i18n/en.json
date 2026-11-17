@@ -1,0 +1,102 @@
+{
+  "header": {
+    "findUs": "Find us",
+    "call": "Phone",
+    "doctorTitle": "Dr. Igor PAPALIA",
+    "doctorSubtitle": "Plastic and aesthetic surgeon in Lyon",
+    "tarifs": "Pricing",
+    "contact": "Contact",
+    "rdv": "Appointment"
+  },
+  "footer": {
+    "doctorTitle": "Dr. Igor PAPALIA",
+    "doctorSubtitle": "Plastic and aesthetic surgeon in Lyon",
+    "interventions": "Surgeries",
+    "medecineEsthetique": "Aesthetic medicine",
+    "parcoursPatient": "Patient journey",
+    "photos": "Before & After",
+    "faq": "FAQ",
+    "tarifs": "Pricing",
+    "whereToFindUs": "Where to find us?",
+    "lyon": "Lyon",
+    "villeurbanne": "Villeurbanne",
+    "vienne": "Vienne",
+    "takeRdv": "Book an appointment",
+    "legalNotice": "Legal notice"
+  },
+  "home": {
+    "hero": {
+      "tag": "Dr Igor PAPALIA",
+      "title": "How long does it take for breast implants to drop?"
+    },
+    "welcome": {
+      "title": "WELCOME TO DR. IGOR PAPALIA'S PRACTICE",
+      "text": "Dr. PAPALIA is a specialist in Plastic, Reconstructive and Aesthetic Surgery, certified by the Medical Board of Rhône.",
+      "more": "Learn more"
+    },
+    "banner": {
+      "title": "AESTHETIC SURGERY",
+      "subtitle": "Medical excellence dedicated to harmony and balance."
+    },
+    "transformation": {
+      "title": "THE ART OF TRANSFORMATION",
+      "p1": "Aesthetic surgery",
+      "p2": "is part of the continuation of plastic and reconstructive surgery. It is based on",
+      "p3": "proven medical techniques",
+      "p4": ", constantly evolving, combining scientific",
+      "p5": "rigor",
+      "p6": ",",
+      "p7": "precision",
+      "p8": "and a sense of",
+      "p9": "harmony",
+      "p10": "."
+    },
+    "interventions": {
+      "title": "PROCEDURES",
+      "subtitle": "Two complementary approaches to enhance your silhouette and facial features.",
+      "chirurgieTitle": "AESTHETIC SURGERY",
+      "seinsPrefix": "Surgery of the",
+      "seins": "BREASTS",
+      "silhouettePrefix": "Surgery of the",
+      "silhouette": "SILHOUETTE",
+      "visagePrefix": "Surgery of the",
+      "visage": "FACE",
+      "cutanePrefix": "Surgery",
+      "cutane": "CUTANEOUS",
+      "medecineTitle": "AESTHETIC MEDICINE",
+      "acidePrefix": "Injections",
+      "acide": "HYALURONIC ACID",
+      "botox": "BOTOX INJECTIONS",
+      "radiofrequence": "RADIOFREQUENCY"
+    },
+    "doctor": {
+      "title": "Dr Papalia",
+      "tagline": "Medical expertise dedicated to your harmony.",
+      "desc1": "Specialist in plastic, reconstructive and aesthetic surgery, Dr. Papalia puts his expertise at the service of natural and tailored results.",
+      "desc2": "Each procedure is designed with precision, respecting your unique morphology and personal expectations.",
+      "whyTitle": "Why choose Doctor Papalia",
+      "point1": "Board certified in plastic, reconstructive and aesthetic surgery",
+      "point2": "Personalized approach",
+      "point3": "Modern, proven techniques",
+      "point4": "Natural and harmonious results",
+      "discover": "Discover background →"
+    },
+    "locations": {
+      "title": "OUR CLINIC LOCATIONS",
+      "subtitle": "Dr. Papalia welcomes you in Lyon, Villeurbanne and Vienne.",
+      "lyon": "LYON",
+      "medipole": "MÉDIPÔLE",
+      "trenel": "TRÉNEL"
+    },
+    "news": {
+      "title": "LATEST NEWS",
+      "date": "02 Apr 2025",
+      "news1Title": "How long does it take for breast implants to drop?",
+      "news1Excerpt": "Breast augmentation is a common procedure in aesthetic breast surgery, but raises many questions, including: \"How long does it take for breast implants to drop?\"...",
+      "news2Title": "The cost of breast augmentation by lipofilling: What you should know",
+      "news2Excerpt": "Breast augmentation by lipofilling is increasingly popular among patients seeking a natural alternative to breast implants...",
+      "readMore": "read more →",
+      "allNews": "All news articles →"
+    }
+  }
+}

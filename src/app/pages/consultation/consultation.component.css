@@ -1,0 +1,216 @@
+:host {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a2e;
+  background-color: #ffffff;
+}
+
+.container-center {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.container-narrow {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header Section */
+.parcours-header-section {
+  padding: 55px 0 40px;
+  background-color: #f7f8fa;
+}
+
+.parcours-badge-tag {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #555e6d;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.parcours-main-title {
+  font-size: 36px;
+  font-weight: 500;
+  color: #121533;
+  margin: 0 0 16px 0;
+}
+
+.parcours-lead {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #4b5563;
+  margin: 0;
+  max-width: 780px;
+}
+
+/* Filter Controls */
+.parcours-filter-section {
+  padding: 40px 0 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+.filter-title {
+  font-size: 19px;
+  font-weight: 500;
+  color: #121533;
+  margin: 0 0 6px 0;
+}
+
+.filter-desc {
+  font-size: 13.5px;
+  color: #6b7280;
+  margin: 0 0 24px 0;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background-color: #f4eee9;
+  color: #374151;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background-color: #e8e0d7;
+}
+
+.filter-btn.active {
+  background-color: #2b3952;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(43, 57, 82, 0.25);
+}
+
+.filter-status-note {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 18px 0 0 0;
+}
+
+/* Steps Timeline */
+.parcours-steps-section {
+  padding: 30px 0 70px;
+  background-color: #fafbfc;
+}
+
+.step-row {
+  display: grid;
+  grid-template-columns: 80px 1.4fr 1.1fr;
+  gap: 30px;
+  align-items: center;
+  padding: 45px 0;
+  border-bottom: 1px solid #eaedf1;
+}
+
+.step-row:last-child {
+  border-bottom: none;
+}
+
+.step-num {
+  font-size: 34px;
+  font-weight: 400;
+  color: #121533;
+  opacity: 0.85;
+}
+
+.step-title {
+  font-size: 21px;
+  font-weight: 500;
+  color: #121533;
+  margin: 0 0 12px 0;
+}
+
+.step-text {
+  font-size: 14px;
+  line-height: 1.75;
+  color: #4b5563;
+  margin: 0;
+}
+
+/* Aside Card */
+.step-aside-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e8ec;
+  border-radius: 4px;
+  padding: 24px 26px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.aside-label {
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #6b7280;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.aside-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #121533;
+  margin: 0 0 8px 0;
+}
+
+.aside-text {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #4b5563;
+  margin: 0;
+}
+
+/* CTA Banner */
+.parcours-cta-banner {
+  background-color: #2b3952;
+  color: #ffffff;
+  padding: 55px 20px;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.cta-desc {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 8px 0;
+}
+
+.cta-contact {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+@media (max-width: 850px) {
+  .step-row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 30px 0;
+  }
+
+  .step-num {
+    font-size: 28px;
+  }
+}

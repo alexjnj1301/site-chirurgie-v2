@@ -190,6 +190,7 @@ export const routes: Routes = [
   { path: "chirurgie-des-seins", component: ChirurgieDesSeinsComponent },
   { path: "chirurgie-du-visage-et-de-la-tete", component: ChirurgieDuVisageEtDeLaTeteComponent },
   { path: "consultation", component: ConsultationComponent },
+  { path: "parcours-patient", component: ConsultationComponent },
   { path: "contact", component: ContactComponent },
   { path: "cout-augmentation-mammaire-lipofilling", component: CoutAugmentationMammaireLipofillingComponent },
   { path: "cruroplastie-lifting-des-cuisses-le-resultat-et-les-imperfections", component: CruroplastieLiftingDesCuissesLeResultatEtLesImperfectionsComponent },

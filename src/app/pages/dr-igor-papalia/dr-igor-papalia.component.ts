@@ -6,6 +6,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   templateUrl: './dr-igor-papalia.component.html',
+  styleUrl: './dr-igor-papalia.component.css',
   encapsulation: ViewEncapsulation.None
 })
 export class DrIgorPapaliaComponent {}

@@ -1,373 +1,252 @@
-<div class="region region-highlighted">
-  <div class="hidden" data-drupal-messages-fallback=""></div>
-
-</div>
-
-<div class="region region-slideshow">
-  <div class="block block-block-content block-block-contentd7a0a400-dc2a-40c9-97b4-ad6eee7ee745" id="block-boutonscotee">
-    <div class="ligne ligne-titre">
-
-
-    </div>
-
-    <div class="content">
-      <div class="ligne-block">
-        <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item field__item_1">
-          <div class="ligne"><p><a class="rdv" routerLink="/prendre-rendez-vous">RDV en ligne</a></p>
-            <p><a class="photos" routerLink="/photos-dinterventions">Photos</a></p>
-            <p><a class="tarifs" routerLink="/tarifs">Tarifs</a></p></div>
-        </div>
+<!-- 1. HERO SLIDER SECTION -->
+<section class="hero-section">
+  <div class="hero-container">
+    <div class="hero-text-col">
+      <span class="hero-tag">{{ 'home.hero.tag' | translate }}</span>
+      <div class="hero-title-box">
+        <h1 class="hero-title">{{ 'home.hero.title' | translate }}</h1>
+      </div>
+      <div class="hero-pagination">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
     </div>
+    <div class="hero-image-col">
+      <img src="/sites/default/files/2025-04/slide_protheses_descendant.jpg" alt="Chirurgie esthétique" class="hero-img">
+    </div>
   </div>
-  <div class="views-element-container block block-views block-views-blockslideshow-block-1" id="block-views-block-slideshow-block-1">
-    <div class="ligne ligne-titre">
+</section>
 
+<!-- 2. BIENVENUE SECTION -->
+<section class="welcome-section">
+  <div class="container-center">
+    <h2 class="section-title">{{ 'home.welcome.title' | translate }}</h2>
+    <div class="separator-line"></div>
+    <p class="welcome-text">
+      {{ 'home.welcome.text' | translate }}
+    </p>
+    <a routerLink="/dr-igor-papalia" class="link-more">{{ 'home.welcome.more' | translate }}</a>
+  </div>
+</section>
 
+<!-- 3. BANNER EXCELLENCE -->
+<section class="banner-excellence">
+  <div class="container-center">
+    <h3 class="banner-title">{{ 'home.banner.title' | translate }}</h3>
+    <div class="separator-line separator-light"></div>
+    <p class="banner-subtitle">{{ 'home.banner.subtitle' | translate }}</p>
+  </div>
+</section>
+
+<!-- 4. L'ART DE LA TRANSFORMATION -->
+<section class="transformation-section">
+  <div class="transformation-container">
+    <div class="transformation-text-col">
+      <h2 class="section-title text-left">{{ 'home.transformation.title' | translate }}</h2>
+      <div class="separator-line align-left"></div>
+      <div class="transformation-content">
+        <p>
+          <strong>{{ 'home.transformation.p1' | translate }}</strong> {{ 'home.transformation.p2' | translate }}
+          <strong>{{ 'home.transformation.p3' | translate }}</strong>{{ 'home.transformation.p4' | translate }}
+          <strong>{{ 'home.transformation.p5' | translate }}</strong> {{ 'home.transformation.p6' | translate }}
+          <strong>{{ 'home.transformation.p7' | translate }}</strong> {{ 'home.transformation.p8' | translate }}
+          <strong>{{ 'home.transformation.p9' | translate }}</strong>{{ 'home.transformation.p10' | translate }}
+        </p>
+      </div>
+    </div>
+    <div class="transformation-image-col">
+      <img src="/sites/default/files/2021-05/slide_liposuccion.jpg" alt="L'art de la transformation" class="transformation-img">
+    </div>
+  </div>
+</section>
+
+<!-- 5. LES INTERVENTIONS -->
+<section class="interventions-section">
+  <div class="container-narrow">
+    <div class="interventions-header">
+      <h2 class="section-title text-left">{{ 'home.interventions.title' | translate }}</h2>
+      <div class="separator-line align-left"></div>
+      <p class="interventions-subtitle">{{ 'home.interventions.subtitle' | translate }}</p>
     </div>
 
-    <div class="content">
-      <div class="ligne-block">
-        <div>
-          <div class="view view-slideshow view-id-slideshow view-display-id-block_1 js-view-dom-id-9ce49ec98f30a68a0803fa4036bfbcc937750a0e98fd816ea0191b1aeb571c52">
-
-
-            <div class="view-content">
-
-              <div>
-
-                <div class="flexslider optionset-default" id="flexslider-1">
-
-                  <ul class="slides">
-
-                    <li>
-                      <div class="views-field views-field-field-image">
-                        <div class="field-content"><img alt="/protheses-mammaires-descente" height="600" loading="lazy" src="/sites/default/files/2025-04/slide_protheses_descendant.jpg" width="1900">
-
-                        </div>
-                      </div>
-                      <div class="views-field views-field-body">
-                        <div class="field-content">
-                          <div><h2 style="font-size:40px;">Combien de temps faut-il pour que les<br>prothèses
-                            mammaires descendent ?</h2></div>
-                          <p><a routerLink="/protheses-mammaires-descente">En savoir plus</a></p></div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="views-field views-field-field-image">
-                        <div class="field-content"><img alt="La liposuccion" height="600" loading="lazy" src="/sites/default/files/2021-05/slide_liposuccion.jpg" width="1900">
-
-                        </div>
-                      </div>
-                      <div class="views-field views-field-body">
-                        <div class="field-content">
-                          <div><h2 style="font-size:40px;">La liposuccion</h2>
-                            <p>Des solutions chirurgicales au service de votre silhouette</p></div>
-                          <p><a routerLink="/lipoaspiration-liposuccion">En savoir plus</a></p></div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="views-field views-field-field-image">
-                        <div class="field-content"><img alt="Chir reconstructrice" height="600" loading="lazy" src="/sites/default/files/2021-02/slide_reconstruction_0.jpg" width="1900">
-
-                        </div>
-                      </div>
-                      <div class="views-field views-field-body">
-                        <div class="field-content">
-                          <div><h2 style="font-size:40px;">L'augmentation mammaire</h2>
-                            <p>Pour retrouvez votre féminité avec le Dr. Igor PAPALIA à Lyon.</p></div>
-                          <p><a routerLink="/augmentation-mammaire-par-protheses-lyon">En savoir plus</a></p></div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-
-              </div>
-
-            </div>
-
+    <!-- Chirurgie esthétique -->
+    <div class="category-block">
+      <h3 class="category-title">{{ 'home.interventions.chirurgieTitle' | translate }}</h3>
+      <div class="cards-grid grid-4">
+        <a routerLink="/chirurgie-des-seins" class="intervention-card">
+          <img src="/themes/asco_theme/images/img_seins.jpg" alt="Chirurgie des Seins" class="card-img">
+          <div class="card-overlay">
+            <span class="card-prefix">{{ 'home.interventions.seinsPrefix' | translate }}</span>
+            <span class="card-name">{{ 'home.interventions.seins' | translate }}</span>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </a>
 
-</div>
-
-
-<main role="main">
-  <a id="main-content" tabindex="-1"></a>
-  <div class="layout-content">
-    <div class="region region-content">
-      <div class="block block-system block-system-main-block" id="block-asco-theme-content">
-        <div class="ligne ligne-titre">
-
-
-        </div>
-
-        <div class="content">
-          <div class="ligne-block">
-            <article class="node node--type-page node--view-mode-full clearfix" data-history-node-id="4">
-              <header>
-
-
-              </header>
-              <div class="node__content clearfix">
-
-              </div>
-            </article>
+        <a routerLink="/chirurgie-de-la-silhouette" class="intervention-card">
+          <img src="/themes/asco_theme/images/img_silhouette.jpg" alt="Chirurgie de la Silhouette" class="card-img">
+          <div class="card-overlay">
+            <span class="card-prefix">{{ 'home.interventions.silhouettePrefix' | translate }}</span>
+            <span class="card-name">{{ 'home.interventions.silhouette' | translate }}</span>
           </div>
-        </div>
-      </div>
+        </a>
 
-    </div>
-
-  </div>
-
-
-</main>
-<div class="region region-docteur">
-  <div class="block block-block-content block-block-content4927aa62-d4fa-450a-a2d5-23857ab2e5b9" id="block-drigorpapalia">
-    <div class="ligne ligne-titre">
-
-
-    </div>
-
-    <div class="content">
-      <div class="ligne-block">
-        <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item field__item_1">
-          <div class="ligne">
-            <div class="colonne_1-1">
-              <div id="titre"><h1>Dr. Igor PAPALIA</h1>
-                <p>Chirurgien esthétique et plastique à Lyon</p></div>
-              <div class="animation" id="philosophie" type-animation="droite_gauche">
-                <div><h2>La chirurgie Esthétique</h2>
-                  <p>La chirurgie esthétique a ses racines dans la chirurgie plastique et reconstructrice.</p>
-                  <p>Elle se base sur des techniques chirurgicales qui font l’objet d’études et d’expérimentations
-                    scientifiques depuis plusieurs siècles et qui évoluent et se perfectionnent sans cesse grâce à
-                    l’esprit de recherche de ses adeptes.</p>
-                  <p>Le chirurgien esthétique, spécialiste en chirurgie plastique reconstructrice et esthétique, est
-                    tout d’abord un <em>médecin</em> qui base son activité sur les règles de la science, de la
-                    déontologie et de la loi.</p>
-                  <p>Cette aptitude, associée au talent et à un sens équilibré d’analyse morpho-esthétique,
-                    représente le pilier fondamental pour l’exercice de cette noble spécialité.</p>
-                  <p><a routerLink="/dr-igor-papalia">En savoir plus</a></p></div>
-              </div>
-            </div>
+        <a routerLink="/chirurgie-du-visage-et-de-la-tete" class="intervention-card">
+          <img src="/themes/asco_theme/images/img_visage.jpg" alt="Chirurgie du Visage" class="card-img">
+          <div class="card-overlay">
+            <span class="card-prefix">{{ 'home.interventions.visagePrefix' | translate }}</span>
+            <span class="card-name">{{ 'home.interventions.visage' | translate }}</span>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </a>
 
-</div>
-
-<div class="region region-interventions">
-  <div class="block block-block-content block-block-content0b158d4b-af00-4757-9e8c-f96971fd30bc" id="block-interventionschirurgie">
-    <div class="ligne ligne-titre">
-
-
-    </div>
-
-    <div class="content">
-      <div class="ligne-block">
-        <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item field__item_1">
-          <div class="ligne">
-            <div class="colonne_1-3 flex animation" type-animation="gauche_droite">
-              <div class="margin">
-                <h2><strong>Le caca</strong><br>
-                  de chirurgie esthétique</h2>
-
-                <p>zleifjb, Reconstructrice et Esthétique.</p>
-                <!--<p><a href="#">Toutes les interventions</a></p>--></div>
-            </div>
-
-            <div class="colonne_2-3 animation" type-animation="droite_gauche">
-              <ul>
-                <li>
-                  <h3>Chirurgie des Seins</h3>
-
-                  <p><a class="btn" routerLink="/chirurgie-des-seins">En savoir plus</a></p>
-                </li>
-                <li>
-                  <h3>Chirurgie de la Silhouette</h3>
-
-                  <p><a class="btn" routerLink="/chirurgie-de-la-silhouette">En savoir plus</a></p>
-                </li>
-                <li>
-                  <h3>Chirurgie du Visage</h3>
-
-                  <p><a class="btn" routerLink="/chirurgie-du-visage-et-de-la-tete">En savoir plus</a></p>
-                </li>
-                <li>
-                  <h3>Chirurgie Cutanée</h3>
-
-                  <p><a class="btn" routerLink="/dermato-chirurgie">En savoir plus</a></p>
-                </li>
-              </ul>
-            </div>
+        <a routerLink="/dermato-chirurgie" class="intervention-card">
+          <img src="/themes/asco_theme/images/img_cutane.jpg" alt="Chirurgie Cutané" class="card-img">
+          <div class="card-overlay">
+            <span class="card-prefix">{{ 'home.interventions.cutanePrefix' | translate }}</span>
+            <span class="card-name">{{ 'home.interventions.cutane' | translate }}</span>
           </div>
-        </div>
+        </a>
       </div>
     </div>
-  </div>
-  <div class="block block-block-content block-block-contentfb820766-7ee6-4411-b6db-bf255df7651a" id="block-interventionsmedecine">
-    <div class="ligne ligne-titre">
 
-
-    </div>
-
-    <div class="content">
-      <div class="ligne-block">
-        <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item field__item_1">
-          <div class="ligne">
-            <div class="colonne_2-3 animation" type-animation="gauche_droite">
-              <ul>
-                <li>
-                  <h3>Injection<br>
-                    d'Acide hyaluronique</h3>
-
-                  <p><a class="btn" routerLink="/injection-acide-hyaluronique">En savoir plus</a></p>
-                </li>
-                <li>
-                  <h3>Toxine botulique</h3>
-
-                  <p><a class="btn" routerLink="/injection-de-toxine-botulique">En savoir plus</a></p>
-                </li>
-                <!--<li>
-                <h3>Cryolypolise</h3>
-
-                <p><a class="btn" href="/cryolipolyse-coolsculpting-definition-et-principes">En savoir plus</a></p>
-                </li>-->
-                <li>
-                  <h3>Radiofréquence</h3>
-
-                  <p><a class="btn" routerLink="/radiofrequence">En savoir plus</a></p>
-                </li>
-              </ul>
-            </div>
-
-            <div class="colonne_1-3 flex animation" type-animation="droite_gauche">
-              <div class="margin">
-                <h2><strong>Les interventions</strong><br>
-                  de médecine esthétique</h2>
-
-                <p>La médecine esthétique regroupe l’ensemble des techniques esthétiques ne nécessitant pas de
-                  chirurgie et de passage au bloc opératoire.</p>
-
-                <p><a routerLink="/medecine-esthetique">Tous les soins</a></p>
-              </div>
-            </div>
+    <!-- Médecine esthétique -->
+    <div class="category-block">
+      <h3 class="category-title">{{ 'home.interventions.medecineTitle' | translate }}</h3>
+      <div class="cards-grid grid-3">
+        <a routerLink="/injection-acide-hyaluronique" class="intervention-card">
+          <img src="/themes/asco_theme/images/img_acide.jpg" alt="Acide Hyaluronique" class="card-img">
+          <div class="card-overlay">
+            <span class="card-prefix">{{ 'home.interventions.acidePrefix' | translate }}</span>
+            <span class="card-name">{{ 'home.interventions.acide' | translate }}</span>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </a>
 
-</div>
-
-<div class="region region-lieux">
-  <div class="block block-block-content block-block-contentdc292d4b-8b7c-4062-b334-1f97c197e2a3" id="block-lieux">
-    <div class="ligne ligne-titre">
-
-
-    </div>
-
-    <div class="content">
-      <div class="ligne-block">
-        <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item field__item_1">
-          <div class="ligne">
-            <div class="colonne_2-3 animation" id="img-lieux" type-animation="haut_bas">&nbsp;</div>
-            <div class="colonne_1-3 animation" type-animation="haut_bas">
-              <div class="margin"><h2><strong>3 lieux d’activité</strong><br>à Lyon</h2>
-                <dl class="ckeditor-accordion">
-                  <dt>Cabinet Lyon</dt>
-                  <dd><p>15 quai Sarrail<br>69006 Lyon</p>
-                    <p><strong>04 72 37 73 90</strong></p></dd>
-                  <dt>Cabinet Médipôle Lyon Villeurbanne</dt>
-                  <dd><p>158 rue Léon Blum<br>69100 Villeurbanne</p>
-                    <p><strong>04 72 37 73 90</strong></p></dd>
-                  <dt>Cabinet Trenel</dt>
-                  <dd><p>575 rue du Dr Trenel<br>69560 Sainte-Colombe</p>
-                    <p><strong>04 74 53 71 34</strong></p></dd>
-                </dl>
-              </div>
-            </div>
+        <a routerLink="/injection-de-toxine-botulique" class="intervention-card">
+          <img src="/themes/asco_theme/images/img_botox.jpg" alt="Toxine Botulique" class="card-img">
+          <div class="card-overlay">
+            <span class="card-name">{{ 'home.interventions.botox' | translate }}</span>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </a>
 
-</div>
-
-<div class="region region-actus">
-  <div class="views-element-container block block-views block-views-blockactualites-block-1" id="block-views-block-actualites-block-1">
-    <div class="ligne ligne-titre">
-
-
-    </div>
-
-    <div class="content">
-      <div class="ligne-block">
-        <div>
-          <div class="view view-actualites view-id-actualites view-display-id-block_1 js-view-dom-id-6dec997f607c07ba1a4db50c9db9884f816882d9a56ffbb5c66883e55513dd0c">
-
-
-            <div class="view-header">
-              <h2>Les actualités</h2>
-            </div>
-
-            <div class="view-content">
-              <div class="views-row">
-                <div class="views-field views-field-title"><span class="field-content"><a hreflang="fr" routerLink="/protheses-mammaires-descente">Combien de temps faut-il pour que les prothèses mammaires descendent ?</a></span>
-                </div>
-                <div class="views-field views-field-field-image">
-                  <div class="field-content"><a hreflang="fr" routerLink="/protheses-mammaires-descente"><img alt="prothèses mammaires descendent" height="315" loading="lazy" src="/sites/default/files/2025-04/actu_prothese_mammaires_descendante.jpg" width="560">
-                  </a>
-                  </div>
-                </div>
-                <div class="views-field views-field-field-date-de-publication">
-                  <div class="field-content">
-                    <time class="datetime" datetime="2025-04-02T12:00:00Z">02 avr 2025</time>
-                  </div>
-                </div>
-                <div class="views-field views-field-body">
-                  <div class="field-content"><a routerLink="/protheses-mammaires-descente">L’augmentation mammaire est
-                    une intervention courante en chirurgie esthétique des seins, mais elle suscite de nombreuses
-                    questions, notamment : "Combien de temps pour que les prothèses mammaires descendent ?"...</a>
-                  </div>
-                </div>
-              </div>
-              <div class="views-row">
-                <div class="views-field views-field-title"><span class="field-content"><a hreflang="fr" routerLink="/cout-augmentation-mammaire-lipofilling">Le coût de l'augmentation mammaire par lipofilling : Ce que vous devez savoir</a></span>
-                </div>
-                <div class="views-field views-field-field-image">
-                  <div class="field-content"><a hreflang="fr" routerLink="/cout-augmentation-mammaire-lipofilling"><img alt="coût de l'augmentation mammaire par lipofilling" height="315" loading="lazy" src="/sites/default/files/2025-04/actu_cout_lipofilling_mammaire.jpg" width="560">
-                  </a>
-                  </div>
-                </div>
-                <div class="views-field views-field-field-date-de-publication">
-                  <div class="field-content">
-                    <time class="datetime" datetime="2025-04-02T12:00:00Z">02 avr 2025</time>
-                  </div>
-                </div>
-                <div class="views-field views-field-body">
-                  <div class="field-content"><a routerLink="/cout-augmentation-mammaire-lipofilling">L'augmentation
-                    mammaire par lipofilling est de plus en plus populaire parmi celles qui recherchent une
-                    alternative naturelle aux implants mammaires...</a></div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="view-footer">
-              <p><a routerLink="/actualites/index">Toutes les actualités</a></p>
-            </div>
+        <a routerLink="/radiofrequence" class="intervention-card">
+          <img src="/themes/asco_theme/images/img_radiofrequence.jpg" alt="Radiofréquence" class="card-img">
+          <div class="card-overlay">
+            <span class="card-name">{{ 'home.interventions.radiofrequence' | translate }}</span>
           </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. LE DR PAPALIA -->
+<section class="doctor-section">
+  <div class="doctor-container">
+    <div class="doctor-photo-col">
+      <img src="/themes/asco_theme/images/dr_papalia.jpg" alt="Dr Igor Papalia" class="doctor-img">
+    </div>
+    <div class="doctor-info-col">
+      <div class="doctor-card">
+        <h2 class="doctor-title">{{ 'home.doctor.title' | translate }}</h2>
+        <div class="separator-line align-left"></div>
+        <p class="doctor-tagline">{{ 'home.doctor.tagline' | translate }}</p>
+        
+        <p class="doctor-desc">
+          {{ 'home.doctor.desc1' | translate }}
+        </p>
+        <p class="doctor-desc">
+          {{ 'home.doctor.desc2' | translate }}
+        </p>
+
+        <h3 class="doctor-why-title">{{ 'home.doctor.whyTitle' | translate }}</h3>
+        <ul class="doctor-points">
+          <li>{{ 'home.doctor.point1' | translate }}</li>
+          <li>{{ 'home.doctor.point2' | translate }}</li>
+          <li>{{ 'home.doctor.point3' | translate }}</li>
+          <li>{{ 'home.doctor.point4' | translate }}</li>
+        </ul>
+
+        <div class="doctor-footer-link">
+          <a routerLink="/dr-igor-papalia" class="link-arrow">{{ 'home.doctor.discover' | translate }}</a>
         </div>
       </div>
     </div>
   </div>
+</section>
 
-</div>
+<!-- 7. NOS LIEUX D'ACTIVITÉ -->
+<section class="locations-section">
+  <div class="container-narrow">
+    <div class="locations-header">
+      <h2 class="section-title">{{ 'home.locations.title' | translate }}</h2>
+      <div class="separator-line"></div>
+      <p class="locations-subtitle">{{ 'home.locations.subtitle' | translate }}</p>
+    </div>
+
+    <div class="locations-grid">
+      <a routerLink="/nous-trouver" class="location-card">
+        <img src="/themes/asco_theme/images/cabinet-lyon.jpg" alt="Cabinet Lyon" class="location-img">
+        <div class="location-overlay">
+          <span class="location-name">{{ 'home.locations.lyon' | translate }}</span>
+        </div>
+      </a>
+
+      <a routerLink="/nous-trouver" class="location-card">
+        <img src="/themes/asco_theme/images/medipole.jpg" alt="Médipôle" class="location-img">
+        <div class="location-overlay">
+          <span class="location-name">{{ 'home.locations.medipole' | translate }}</span>
+        </div>
+      </a>
+
+      <a routerLink="/nous-trouver" class="location-card">
+        <img src="/themes/asco_theme/images/clinique-trenel.jpg" alt="Clinique Trénel" class="location-img">
+        <div class="location-overlay">
+          <span class="location-name">{{ 'home.locations.trenel' | translate }}</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 8. LES ACTUALITÉS -->
+<section class="news-section">
+  <div class="container-narrow">
+    <div class="news-header">
+      <h2 class="section-title">{{ 'home.news.title' | translate }}</h2>
+      <div class="separator-line"></div>
+    </div>
+
+    <div class="news-grid">
+      <article class="news-card">
+        <div class="news-img-box">
+          <img src="/sites/default/files/2025-04/slide_protheses_descendant.jpg" alt="Prothèses mammaires" class="news-img">
+          <span class="news-date-badge">{{ 'home.news.date' | translate }}</span>
+        </div>
+        <div class="news-body">
+          <h3 class="news-title">{{ 'home.news.news1Title' | translate }}</h3>
+          <p class="news-excerpt">
+            {{ 'home.news.news1Excerpt' | translate }}
+          </p>
+          <a routerLink="/protheses-mammaires-descente" class="news-link">{{ 'home.news.readMore' | translate }}</a>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-img-box">
+          <img src="/sites/default/files/2021-02/slide_reconstruction_0.jpg" alt="Augmentation mammaire lipofilling" class="news-img">
+          <span class="news-date-badge">{{ 'home.news.date' | translate }}</span>
+        </div>
+        <div class="news-body">
+          <h3 class="news-title">{{ 'home.news.news2Title' | translate }}</h3>
+          <p class="news-excerpt">
+            {{ 'home.news.news2Excerpt' | translate }}
+          </p>
+          <a routerLink="/cout-augmentation-mammaire-lipofilling" class="news-link">{{ 'home.news.readMore' | translate }}</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="news-footer">
+      <a routerLink="/actualites" class="all-news-link">{{ 'home.news.allNews' | translate }}</a>
+    </div>
+  </div>
+</section>

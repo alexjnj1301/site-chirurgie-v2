@@ -1,61 +1,51 @@
-<div class="region region-footerok">
-			<div class="block block-block-content block-block-contentd8187288-fb7a-456f-8e49-18055c473bbf" id="block-footer">
-				<div class="ligne ligne-titre">
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-col footer-col-brand">
+      <a routerLink="/" class="footer-brand-link">
+        <img src="/themes/asco_theme/images/logo-footer.png" alt="Dr. Igor Papalia" class="footer-emblem">
+        <div class="footer-brand-text">
+          <span class="footer-brand-title">{{ 'footer.doctorTitle' | translate }}</span>
+          <span class="footer-brand-subtitle">{{ 'footer.doctorSubtitle' | translate }}</span>
+        </div>
+      </a>
+    </div>
 
+    <div class="footer-col footer-col-nav">
+      <ul class="footer-links">
+        <li><a routerLink="/chirurgie-des-seins">{{ 'footer.interventions' | translate }}</a></li>
+        <li><a routerLink="/medecine-esthetique">{{ 'footer.medecineEsthetique' | translate }}</a></li>
+        <li><a routerLink="/consultation">{{ 'footer.parcoursPatient' | translate }}</a></li>
+        <li><a routerLink="/photos-dinterventions">{{ 'footer.photos' | translate }}</a></li>
+        <li><a routerLink="/faq">{{ 'footer.faq' | translate }}</a></li>
+        <li><a routerLink="/tarifs">{{ 'footer.tarifs' | translate }}</a></li>
+      </ul>
+    </div>
 
-				</div>
+    <div class="footer-col footer-col-locations">
+      <h4 class="footer-heading">{{ 'footer.whereToFindUs' | translate }}</h4>
+      <div class="locations-box">
+        <ul class="locations-list">
+          <li><a routerLink="/nous-trouver">{{ 'footer.lyon' | translate }}</a></li>
+          <li><a routerLink="/nous-trouver">{{ 'footer.villeurbanne' | translate }}</a></li>
+          <li><a routerLink="/nous-trouver">{{ 'footer.vienne' | translate }}</a></li>
+        </ul>
+      </div>
+    </div>
 
-				<div class="content">
-					<div class="ligne-block">
-						<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item field__item_1">
-							<div class="ligne">
-								<div class="colonne_1-3">
-									<div id="logo-footer">
-										<p>&nbsp;</p>
-									</div>
+    <div class="footer-col footer-col-cta">
+      <a routerLink="/prendre-rendez-vous" class="footer-btn-rdv">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+          <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+          <path d="M2 2l7.586 7.586"></path>
+          <circle cx="11" cy="11" r="2"></circle>
+        </svg>
+        <span>{{ 'footer.takeRdv' | translate }}</span>
+      </a>
+    </div>
+  </div>
 
-									<h2>Dr. Igor PAPALIA</h2>
-
-									<p>Chirurgien plastique et esthétique à Lyon</p>
-								</div>
-
-								<div class="colonne_1-3">
-									<h3>Centre de Lyon</h3>
-
-									<p>15, Quai Sarrail - 69006 Lyon<br>
-										04 72 37 73 90</p>
-								</div>
-
-								<div class="colonne_1-3">
-									<h3>Contactez-nous</h3>
-
-									<p><a routerLink="/contact">Par mail</a></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-<div class="region region-footerbas">
-			<div class="block block-block-content block-block-content48794c52-426b-449d-946c-c896c8d1abe9" id="block-footerbas">
-				<div class="ligne ligne-titre">
-
-
-				</div>
-
-				<div class="content">
-					<div class="ligne-block">
-						<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item field__item_1">
-							<div class="ligne">
-								<div class="colonne_1-1"><p style="text-align:center;">
-									<a routerLink="/mentions-legales">Mention Légales</a>
-								</p></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
+  <div class="footer-bottom">
+    <a routerLink="/mentions-legales" class="mentions-link">{{ 'footer.legalNotice' | translate }}</a>
+  </div>
+</footer>
